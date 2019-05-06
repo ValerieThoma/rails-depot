@@ -23,13 +23,12 @@
   td.image {
     //hide this on mobile devices 
     display: none;
-  }
-
-  @media (min-width: 30em) {
-    display: block;
-    img {
-      height: 11.3em;
-    }
+    @media (min-width: 30em) {
+      display: block;
+      img {
+        height: 11.3em;
+      }
+    }  
   }
 }
 
